@@ -6,5 +6,5 @@ module.exports=function(){
 		user:'root',
 		password:'ifms',
 		database:'portal_noticias'
-	});
+	}); //cria coneção com o banco de dados;
 }

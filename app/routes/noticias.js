@@ -9,6 +9,7 @@ module.exports=function(app){ //criação do modulo para a rota noticias
 			if (error){
 				console.log(error);
 			}
+			//resposta do query para cliente
 			res.render('./noticias/noticias.ejs', {noticias:result}); //envia a respostas na variavel result
 		});
 	});
